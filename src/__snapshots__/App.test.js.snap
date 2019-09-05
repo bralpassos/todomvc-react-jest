@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verificar se ao renderizar, renderiza uma lista vazia 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="header"
+  >
+    <h1>
+      todos
+    </h1>
+    <input
+      className="new-todo"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      placeholder="What needs to be done?"
+      value=""
+    />
+  </header>
+  <section
+    className="main"
+  >
+    <ul
+      className="todo-list"
+    >
+      
+    </ul>
+  </section>
+</div>
+`;

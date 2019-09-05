@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Deve renderizar uma lista com 2 ítens quando forem passados 2 ítens 1`] = `
+<section
+  className="main"
+>
+  <ul
+    className="todo-list"
+  >
+    <li>
+      <div
+        className="view"
+      >
+        <label>
+          Item1
+        </label>
+      </div>
+    </li>
+    <li>
+      <div
+        className="view"
+      >
+        <label>
+          Item2
+        </label>
+      </div>
+    </li>
+  </ul>
+</section>
+`;
+
+exports[`Deve renderizar uma lista quando passa um item 1`] = `
+<section
+  className="main"
+>
+  <ul
+    className="todo-list"
+  >
+    <li>
+      <div
+        className="view"
+      >
+        <label>
+          Item
+        </label>
+      </div>
+    </li>
+  </ul>
+</section>
+`;
+
+exports[`Não deve renderizar nada quando passa uma lista vazia 1`] = `
+<section
+  className="main"
+>
+  <ul
+    className="todo-list"
+  >
+    
+  </ul>
+</section>
+`;
